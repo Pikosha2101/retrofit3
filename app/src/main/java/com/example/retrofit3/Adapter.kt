@@ -39,6 +39,6 @@ class Adapter(private var items : ArrayList<CountryModel>) : RecyclerView.Adapte
 
     fun updateData(newData: ArrayList<CountryModel>) {
          items = newData
-        notifyDataSetChanged() // Уведомляем RecyclerView, что данные изменились
+        notifyDataSetChanged()
     }
 }
