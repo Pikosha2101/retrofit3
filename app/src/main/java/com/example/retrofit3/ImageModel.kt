@@ -1,3 +1,5 @@
 package com.example.retrofit3
 
-data class ImageModel (val svg : String, val png : String)
+import java.io.Serializable
+
+data class ImageModel (val svg : String, val png : String): Serializable

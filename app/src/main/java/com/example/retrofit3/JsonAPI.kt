@@ -4,5 +4,5 @@ import retrofit2.http.GET
 
 interface JsonAPI {
     @GET("all")
-    suspend fun getItem() : List<CountryModel>
+    suspend fun getItem() : ArrayList<CountryModel>
 }

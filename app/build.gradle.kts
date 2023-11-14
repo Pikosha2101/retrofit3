@@ -48,6 +48,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("com.squareup.picasso:picasso:2.8")
     implementation ("jp.wasabeef:picasso-transformations:2.4.0")
+    implementation(files("C:\\Users\\puka4\\Desktop\\mpandroidchartlibrary-1-7-4.jar"))
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
